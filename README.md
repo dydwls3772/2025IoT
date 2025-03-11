@@ -57,3 +57,27 @@ void loop() {
 }
 
 ```
+아래 코드는 빨간LED와 초록LED가 번갈아가면서 켜지는 코드
+```c
+
+int led_R = 6;
+int led_G = 9;
+
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(led_R, OUTPUT);
+  pinMode(led_G, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(led_R, HIGH);
+  delay(1000);
+  digitalWrite(led_R, LOW);
+  delay(1000);
+  digitalWrite(led_G, HIGH);
+  delay(1000);
+  digitalWrite(led_G, LOW);
+  delay(1000);
+}
+```
