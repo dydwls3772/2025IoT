@@ -28,7 +28,7 @@ $ influx
 >create database <데이터베이스이름>
 확인 : show databases
 ```
-### Python InfluxDB lib 설치
+### Python InfluxDB 설치
 ```
 pip install influxdb
 ```
@@ -61,13 +61,6 @@ pip install influxdb
 hint: See PEP 668 for the detailed specification.
 ```
   sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
-```
-## influxDB Database 생성
-```
-$ Influx
-$ create database dust
-$ show databases
-$ exit
 ```
 ## 미세먼지 센서 코드
 ```python
