@@ -1,7 +1,8 @@
 # 12주차 사물인터넷
 
 ## 라즈베리파이 InfluxDB 설치 코드
-출처: https://github.com/sonnonet/2024_inhatc    
+출처: https://github.com/sonnonet/2024_inhatc   
+## InfluxDB 설치
 InfluxDB download key using wget
 ```
 wget -q https://repos.influxdata.com/influxdata-archive_compat.key
