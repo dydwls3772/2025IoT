@@ -21,6 +21,13 @@ InfluxDB is status (service)
 ```
 sudo service influxdb status
 ```
+## InfluxDB 데이터베이스 설치
+```
+$ influx
+
+>create database <데이터베이스이름>
+확인 : show databases
+```
 ### Python InfluxDB lib 설치
 ```
 pip install influxdb
